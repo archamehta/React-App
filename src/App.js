@@ -7,7 +7,7 @@ import tips from './tips.csv'
 class App extends Component{
 
   constructor(props){
-    super(props)
+    super(props);
     this.state={data:[]};
   }
   componentDidMount(){
@@ -31,7 +31,7 @@ class App extends Component{
     return <div className="parent">
       <div className = "child1"><Child1 data1={this.state.data}></Child1></div>
       <div className = "child2"><Child2 data2={this.state.data}></Child2></div>
-      </div>
+      </div>;
   }
 }
 
